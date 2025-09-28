@@ -1,0 +1,39 @@
+# ---- Logs ----
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---- Dependency klasörleri ----
+node_modules/
+  
+# ---- Build çıktıları ----
+dist/
+dist-ssr/
+build/
+  
+# ---- Local environment dosyaları ----
+*.local
+.env
+.env.*.local
+
+# ---- OS (işletim sistemi) dosyaları ----
+.DS_Store       # MacOS
+Thumbs.db       # Windows
+
+# ---- IDE / Editor ayarları ----
+.vscode/*
+!.vscode/extensions.json   # sadece extensions.json hariç
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---- Test / Coverage ----
+coverage/
+*.lcov
